@@ -1,16 +1,72 @@
-# React + Vite
+📝 Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive Todo application built to manage daily tasks efficiently. This project demonstrates core concepts of frontend development including state management, component-based architecture, and dynamic rendering.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+➕ Add new tasks
 
-## React Compiler
+✅ Mark tasks as completed
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+❌ Delete tasks
 
-## Expanding the ESLint configuration
+✏️ Edit existing tasks
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🌙 Dark/Light mode toggle
+
+💾 Persistent storage using Local Storage
+
+📱 Fully responsive UI
+
+🛠️ Tech Stack
+
+HTML5
+
+CSS3 / Tailwind CSS
+
+JavaScript (ES6+)
+
+React (if you used it)
+
+Vite (for fast development build)
+
+📚 What I Learned
+
+Managing state effectively
+
+Handling events and form inputs
+
+Conditional rendering
+
+Array methods like map(), filter()
+
+Working with localStorage
+
+Building reusable components
+
+📂 Project Structure
+src/
+ ├── components/
+ │   ├── TodoForm.jsx
+ │   ├── TodoItem.jsx
+ │   └── ThemeToggle.jsx
+ ├── contexts/
+ ├── App.jsx
+ └── main.jsx
+🎯 Future Improvements
+
+Add task categories
+
+Add due dates & reminders
+
+Drag and drop reordering
+
+Backend integration (Node.js + MongoDB)
+
+Authentication system
+
+🔧 Installation & Setup
+git clone https://github.com/your-username/todo-app.git
+cd todo-app
+npm install
+npm run dev
